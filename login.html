@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap | TODO</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Asap+Condensed:500">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Inline CSS File-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <link rel="stylesheet" media="(max-width:768px)" href="assets/css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="assets/css/mobile.css">
+
+</head>
+<body>
+<div class="bg"><</div>
+<div class="container">
+    <div class="login-logo">
+        <a href="#">
+            <img src="assets/images/logo-mini-2-md.png">  	
+        </a>
+    </div>
+    <h3 class="text-center">Üye Girişi</h3>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 well">
+                <div class="form-group">
+             <form action="#">
+                   <!--- <label>E-posta</label> -->
+                    <input type="email" class="form-control" id="email" placeholder="E-posta" required>
+                </div>
+                <div class="form-group">
+                  <!---   <label>Şifre</label>-->
+                    <input type="password" class="form-control password-field" id="password" placeholder="Şifre" required>
+                   <span toggle="#password" data-toggle="tooltip" data-placement="bottom" data-original-title="Şifreyi Göster" class="far fa-eye field-icon toggle-password"> </span>
+               </div>
+               <div class="custom-control custom-checkbox">
+                    <input type="checkbox"  class="custom-control-input" id="customCheck1" value="remember-me" >
+                    <label class="checkbox rememberme-me custom-control-label" for="customCheck1">Beni Hatırla</label>
+            </div>
+             </form>
+                <button id="loginBtn" class="btn btn-primary btn-block centerButton">Giriş Yap</button>
+                <p class="text-center sign-descriotion1">
+                    Eğer üye değilseniz hemen 
+                    <a class = "register-link" href="register.html">Üye olun</a>
+                </p>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+<script src="assets/js/app/login.js"></script>
+
+
+</body>
+</html>

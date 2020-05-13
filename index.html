@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa | TODO</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Asap+Condensed:500">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/switchery.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="assets/css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="assets/css/mobile.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand user-text" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="logout" href="#">Çıkış Yap</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+    <div class="row" style="margin-bottom: 10px;">
+        <h3 class="text-center">TODO List</h3>
+        <div class="col-md-12 text-center">
+            <div class="form-inline">
+                <div class="form-group">
+                    <input type="text" id="description" class="form-control" style="width: 1000px;">
+                    <button class="btn btn-primary sendToFireBase">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 well">
+            <h4>TODO List</h4>
+            <table class="todoList table table-bordered table-striped table-hover">
+                <thead>
+                    <th>Açıklama</th>
+                    <th class="w100 text-center">Durum</th>
+                    <th class="w100 text-center">Sil</th>
+                </thead>
+                <tbody class=""></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<p class="furkan">
+
+
+</div>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+<script src="assets/js/app/main.js"></script>
+<script src="assets/js/switchery.min.js"></script>
+
+
+
+</body>
+</html>
