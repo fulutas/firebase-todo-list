@@ -141,6 +141,10 @@ label {
   border: none;
 }
 
+.form-control:focus{
+    color: #ffff;
+    background-color: rgba(67, 34, 167, 0.4);
+}
 .field-icon {
     float: right;
     font-size: 20px;
@@ -148,7 +152,7 @@ label {
     margin-right: 15px;
     cursor: pointer;
     pointer-events: all;
-    color: #72748e
+    color: #72748e;
 }
 
 .custom-control {
